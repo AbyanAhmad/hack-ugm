@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans&family=Poor+Story&family=Poppins:wght@700;800&family=Rokkitt:wght@500&display=swap');
+
+/* Poppins =  Bold(700) EkstraBold(800) */
+
+
+/* Filter Generator for SVG  https://codepen.io/sosuke/pen/Pjoqqp?__cf_chl_jschl_tk__=9a48fb9d11ce0facdc952ab4db573b643d172c26-1597061727-0-Ae0-NhPSNjyS42LPxZj2e0faEi4WDMLN1Ri9zkHu1zgfLL-3gc1rByXG1xctWYUkvbwlwOkOdmH04Sqt0Z0ZiblLV0eR39bi1dwQGo6brm8tOntxLbSgcr_04Z9mWQzP8HRDdWV93so11-x7ExN21mSsLregc4UuonF9ZAqz859GeJyokibQPpcTJnhVZuX2mWzOjN01Z1wJE9vx1Zdt443gmL65aJpzgt6WcIDv8UcSabO2EX6VlDq221fASy2ZZD0DgVb-QW-dszq7zMb1l3mcjiykeQpt22P18pN8o8SU4KzfUvub_rwsui5dlkQPFqTYS3ZbnzNSm36X5S37wLeKk_Z4GTZpFWsZEDdUJmU3*/
+
+.jumbotron {
+    text-align: center;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+    text-shadow: 2px 2px #000;
+    height: 750px;
+}
+
+.lead span {
+    color: orange;
+    font-weight: bold;
+}
+
+.body-login {
+    background-color: #000;
+}
+
+.body-global {
+    background: #F9F9F9;
+}
+
+
+/* Landing Page */
+
+.font-navbar {
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000;
+}
+
+.navbar-toggler {
+    background-color: #FFFFFF;
+    border: none;
+    color: #000;
+}
+
+.navbar a {
+    font-family: 'Poppins' !important;
+    font-size: 0.8em !important;
+    font-weight: 400 !important;
+}
+
+.button-navbar {
+    font-family: 'Poppins';
+    font-size: 0.9em;
+    font-weight: 400;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    width: 92px;
+    height: 38px;
+    border-radius: 5;
+    background: #1B262C;
+}
+
+.button-mobile-landingpage {
+    margin-top: 24px;
+}
+
+.mobile-logo {
+    transform: translateX(-50%);
+    left: 50%;
+    position: absolute;
+}
+
+.masthead {
+    height: 100vh;
+    min-height: 400px;
+    background-image: url('assets/desert-landingpage.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: block;
+    position: relative;
+    width: 100%;
+}
+
+.landingpage-title {
+    font-family: 'Poppins';
+    font-size: 144px;
+    font-weight: 700;
+    color: #43393C;
+    text-shadow: 20px 10px 7px rgba(0, 0, 0, 0.25);
+}
+
+.overlay {
+    background-color: #000;
+    opacity: 0.5;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+}
+
+
+/* Landing Page */
