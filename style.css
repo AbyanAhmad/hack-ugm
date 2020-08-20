@@ -5,35 +5,21 @@
 
 /* Filter Generator for SVG  https://codepen.io/sosuke/pen/Pjoqqp?__cf_chl_jschl_tk__=9a48fb9d11ce0facdc952ab4db573b643d172c26-1597061727-0-Ae0-NhPSNjyS42LPxZj2e0faEi4WDMLN1Ri9zkHu1zgfLL-3gc1rByXG1xctWYUkvbwlwOkOdmH04Sqt0Z0ZiblLV0eR39bi1dwQGo6brm8tOntxLbSgcr_04Z9mWQzP8HRDdWV93so11-x7ExN21mSsLregc4UuonF9ZAqz859GeJyokibQPpcTJnhVZuX2mWzOjN01Z1wJE9vx1Zdt443gmL65aJpzgt6WcIDv8UcSabO2EX6VlDq221fASy2ZZD0DgVb-QW-dszq7zMb1l3mcjiykeQpt22P18pN8o8SU4KzfUvub_rwsui5dlkQPFqTYS3ZbnzNSm36X5S37wLeKk_Z4GTZpFWsZEDdUJmU3*/
 
-.jumbotron {
-    text-align: center;
-    padding-top: 10rem;
-    padding-bottom: 10rem;
-    text-shadow: 2px 2px #000;
-    height: 750px;
-}
-
-.lead span {
-    color: orange;
-    font-weight: bold;
-}
-
-.body-login {
-    background-color: #000;
-}
-
 .body-global {
-    background: #F9F9F9;
+    background-color: #FFEC8A;
 }
 
 
 /* Landing Page */
 
-.font-navbar {
-    font-family: 'Poppins';
-    font-size: 16px;
-    font-weight: 400;
-    color: #000000;
+.custom-navbar {
+    background-color: #FBC83B;
+    box-shadow: 10px 10px 4px rgba(0, 0, 0, 0.25);
+}
+
+.navbar-logo {
+    width: auto;
+    height: 3em;
 }
 
 .navbar-toggler {
@@ -42,32 +28,15 @@
     color: #000;
 }
 
-.navbar a {
-    font-family: 'Poppins' !important;
-    font-size: 0.8em !important;
-    font-weight: 400 !important;
-}
-
 .button-navbar {
     font-family: 'Poppins';
     font-size: 0.9em;
     font-weight: 400;
-    color: #FFFFFF;
-    letter-spacing: 0;
-    width: 92px;
-    height: 38px;
-    border-radius: 5;
-    background: #1B262C;
-}
-
-.button-mobile-landingpage {
-    margin-top: 24px;
-}
-
-.mobile-logo {
-    transform: translateX(-50%);
-    left: 50%;
-    position: absolute;
+    color: #7A0B0B;
+    letter-spacing: 2px;
+    border-radius: 50%;
+    background: #FAEF5E;
+    box-shadow: 10px 10px 4px rgba(0, 0, 0, 0.25);
 }
 
 .masthead {
@@ -84,21 +53,132 @@
 
 .landingpage-title {
     font-family: 'Poppins';
-    font-size: 144px;
+    font-size: 8em;
     font-weight: 700;
     color: #43393C;
     text-shadow: 20px 10px 7px rgba(0, 0, 0, 0.25);
+    margin-top: 1.6em;
 }
 
-.overlay {
-    background-color: #000;
-    opacity: 0.5;
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    z-index: -1;
+.creativity {
+    font-family: 'Poppins';
+    font-size: 4.3em;
+    font-weight: 800;
+    color: #F69C14;
+    text-shadow: 7px 7px 4px rgba(0, 0, 0, 0.25);
+    margin-top: 0.5em;
+}
+
+.creativity-subtitle {
+    font-family: 'Poor Story';
+    font-size: 4em;
+    color: #000000;
+    margin-top: 0.1em;
+}
+
+.colum {
+    background-color: #F69C14;
+    width: 95%;
+    border-radius: 10px;
+}
+
+.tema-image {
+    padding-left: 2em;
+    margin-top: 4em;
+    height: 300px;
+    width: auto;
+}
+
+.tema-image-last {
+    padding-left: 2em;
+    margin-top: 4em;
+    height: 300px;
+    width: auto;
+    margin-bottom: 4em;
+}
+
+.tema-title {
+    font-family: 'Poppins';
+    font-size: 4em;
+    font-weight: 800;
+    color: #FFFFFF;
+    text-shadow: 7px 7px 4px rgba(0, 0, 0, 0.25);
+    padding-top: 1.2em;
+}
+
+.tema-subtitle {
+    font-family: 'Muli';
+    font-size: 1.5em;
+    color: #000000;
+    margin-top: 0.5em;
+}
+
+.timeline {
+    background-color: #7A0B0B;
+    width: 80%;
+    border-radius: 100px;
+    height: 11em;
+    line-height: 11em;
+}
+
+.timeline-title {
+    font-family: 'Poppins';
+    font-size: 5.5em;
+    font-weight: 700;
+    color: #FFC961;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+}
+
+.timeline-background {
+    width: 100%;
+    background-color: #FCB315;
+    height: 110em;
+    margin-top: -5.5em;
+    z-index: -3;
+}
+
+
+/*.timeline-img {
+    margin-top: 12em;
+}*/
+
+.circle {
+    margin-top: 12em;
+    background: #97371A;
+    border-radius: 50%;
+    width: 115px;
+    height: 115px;
+    z-index: 3;
+}
+
+.vertical {
+    background-color: #97371A;
+    width: 3em;
+    height: 20em;
+    margin-top: -1em;
+    z-index: -20;
+}
+
+.left-col-1 {
+    margin-top: 11.5rem;
+}
+
+.left-col-2 {
+    margin-top: 28rem;
+}
+
+.left-col-3 {
+    margin-top: 24rem;
+}
+
+.right-col-1 {
+    margin-top: 13em;
+}
+
+.right-col-2 {
+    margin-top: 12.5em;
 }
 
 
